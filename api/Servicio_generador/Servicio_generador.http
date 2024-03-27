@@ -1,0 +1,6 @@
+@Servicio_generador_HostAddress = http://localhost:5224
+
+GET {{Servicio_generador_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
