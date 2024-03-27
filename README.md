@@ -1,1 +1,1 @@
-# generador-contrase-a
+# generate-password desde página github
