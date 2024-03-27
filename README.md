@@ -1,2 +1,2 @@
-# generate-password desde página github
-editado desde mi pc local
+# generate-password desde página githubPro
+editado desde mi-pc local
