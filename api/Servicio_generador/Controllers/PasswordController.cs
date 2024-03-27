@@ -16,7 +16,7 @@ namespace Servicio_generador.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return GeneratePassword(5);
+            return GeneratePasswordBack();
         }
         private string GeneratePassword(int length)
         {
@@ -24,6 +24,19 @@ namespace Servicio_generador.Controllers
             return new string(Enumerable.Repeat(chars, length)
                 .Select(s => s[random.Next(s.Length)]).ToArray());
         }
+
+        private string GeneratePasswordBack()
+        {
+            string password;
+            Random rnd = new Random();
+            string caracteresEspeciales = "!@#$%^&*+-_.,<>/¿?;%=|(){}[]";
+            string guid = Guid.NewGuid().ToString("N"); // Genera un GUID en formato sin guiones ni caracteres especiales
+            password = guid.Substring(1, 2);
+            string password2 = guid.Substring(4, 1);// Tomar los primeros 5 caracteres del GUID
+            password += caracteresEspeciales[rnd.Next(0, caracteresEspeciales.Length)] + password2 + caracteresEspeciales[rnd.Next(0, caracteresEspeciales.Length)]; // Agregar un carácter especial al final de la contraseña
+            return password;
+        }
+
 
         private readonly ILogger<PasswordController> _logger;
 
