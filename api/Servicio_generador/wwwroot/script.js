@@ -30,3 +30,17 @@ function copyPass() {
     document.execCommand("copy");
     
 }
+const llamandoAPI = async () => {
+    try {
+        const respuesta = await fetch('https://localhost:5224.weatherforecast')    
+        const data =  await respuesta.json()
+        document.getElementById("pass").value = data.value 
+      } catch (error) {
+        console.log(error);
+      } 
+}
+
+function llamandoAPIN() {
+
+    llamandoAPI()
+}
