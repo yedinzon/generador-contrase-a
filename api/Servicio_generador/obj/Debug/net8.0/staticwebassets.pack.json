@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Servicio_generador.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Servicio_generador.props",
+      "PackagePath": "build\\Servicio_generador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Servicio_generador.props",
+      "PackagePath": "buildMultiTargeting\\Servicio_generador.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Servicio_generador.props",
+      "PackagePath": "buildTransitive\\Servicio_generador.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

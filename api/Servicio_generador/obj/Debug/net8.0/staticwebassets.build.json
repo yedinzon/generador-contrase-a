@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "6c98RUg2+jg8+6wI+BTXPry6X+WhynWA+njs6UkmPzs=",
+  "Hash": "d/saJejTNPjpvoH2sC22ULWWECeJyCJ97e9n5245VfY=",
   "Source": "Servicio_generador",
   "BasePath": "_content/Servicio_generador",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Servicio_generador\\wwwroot",
+      "Source": "Servicio_generador",
+      "ContentRoot": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\",
+      "BasePath": "_content/Servicio_generador",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\index.html",
+      "SourceId": "Servicio_generador",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\",
+      "BasePath": "_content/Servicio_generador",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\script.js",
+      "SourceId": "Servicio_generador",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\",
+      "BasePath": "_content/Servicio_generador",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\style.css",
+      "SourceId": "Servicio_generador",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\wwwroot\\",
+      "BasePath": "_content/Servicio_generador",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
 }

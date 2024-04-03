@@ -191,3 +191,4 @@ C:\Users\Emachines\Source\Repos\generate-password\api\Servicio_generador\obj\Deb
 C:\Users\Emachines\Source\Repos\generate-password\api\Servicio_generador\obj\Debug\net8.0\Servicio_generador.pdb
 C:\Users\Emachines\Source\Repos\generate-password\api\Servicio_generador\obj\Debug\net8.0\Servicio_generador.genruntimeconfig.cache
 C:\Users\Emachines\Source\Repos\generate-password\api\Servicio_generador\obj\Debug\net8.0\ref\Servicio_generador.dll
+C:\Users\Emachines\Source\Repos\generate-password\api\Servicio_generador\bin\Debug\net8.0\Servicio_generador.staticwebassets.runtime.json
