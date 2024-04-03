@@ -4575,11 +4575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emachines\\Documents\\GitHub\\generate-password\\api\\Servicio_generador\\Servicio_generador.csproj",
+      "projectUniqueName": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\Servicio_generador.csproj",
       "projectName": "Servicio_generador",
-      "projectPath": "C:\\Users\\Emachines\\Documents\\GitHub\\generate-password\\api\\Servicio_generador\\Servicio_generador.csproj",
+      "projectPath": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\Servicio_generador.csproj",
       "packagesPath": "C:\\Users\\Emachines\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emachines\\Documents\\GitHub\\generate-password\\api\\Servicio_generador\\obj\\",
+      "outputPath": "C:\\Users\\Emachines\\Source\\Repos\\generate-password\\api\\Servicio_generador\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Emachines\\AppData\\Roaming\\NuGet\\NuGet.Config",
