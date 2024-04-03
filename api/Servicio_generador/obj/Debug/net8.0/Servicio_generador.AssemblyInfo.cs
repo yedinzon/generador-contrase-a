@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Servicio_generador")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d6c6ac2ef662a1d031414489c0e02864e20c509")]
 [assembly: System.Reflection.AssemblyProductAttribute("Servicio_generador")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Servicio_generador")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
