@@ -10,7 +10,7 @@ const upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
       allChars = upperCase + lowerCase + number + symbol;
     
 
-     generatePassword.addEventListener('click',generatePass)
+generatePassword.addEventListener('click', llamandoAPIN)
      
 
 function generatePass() {
@@ -32,7 +32,7 @@ function copyPass() {
 }
 const llamandoAPI = async () => {
     try {
-        const respuesta = await fetch('https://localhost:5224.weatherforecast')    
+        const respuesta = await fetch('https://api.chucknorris.io/jokes/random')    
         const data =  await respuesta.json()
         document.getElementById("pass").value = data.value 
       } catch (error) {
